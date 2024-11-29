@@ -58,5 +58,12 @@ export default {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+	require("tailwindcss-animate"),
+	require('daisyui'),
+],
+	daisyui: {
+		prefix: 'dui-',
+	},
+
 } satisfies Config;
