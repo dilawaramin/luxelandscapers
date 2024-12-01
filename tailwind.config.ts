@@ -49,7 +49,9 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+			luxeGreenMain: '#104a49',
+			luxeGoldMain: '#fad132',
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
@@ -62,8 +64,20 @@ export default {
 	require("tailwindcss-animate"),
 	require('daisyui'),
 ],
-	daisyui: {
-		prefix: 'dui-',
-	},
+
+daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#104a49", // Your custom color for the button
+          secondary: "#fad132", // Example secondary color
+          accent: "#4CAF50", // Example accent color
+          neutral: "#333333", // Example neutral color
+          "base-100": "#FFFFFF", // Background color
+        },
+      },
+    ],
+  },
 
 } satisfies Config;
+
