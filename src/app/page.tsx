@@ -4,7 +4,7 @@ export default function Home() {
   return (
   <main>
   <div
-    className="hero min-h-[60vh] md:min-h-[80vh] lg:min-h-[90vh] bg-bottom md:bg-fixed"
+    className="hero min-h-[60vh] md:min-h-[100vh] lg:min-h-[100vh] bg-bottom md:bg-fixed"
     style={{
       backgroundImage: "url('/pictures/headerfinal2.jpg')",
     }}>
