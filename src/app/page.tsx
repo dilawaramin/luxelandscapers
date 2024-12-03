@@ -8,7 +8,7 @@ export default function Home() {
     style={{
       backgroundImage: "url('/pictures/headerfinal2.jpg')",
     }}>
-    <div className="hero-overlay bg-opacity-45"></div>
+    <div className="hero-overlay bg-opacity-40"></div>
     <div className="hero-content text-neutral-content text-center">
       <div className="max-w-md">
         <h1 className="mb-5 text-luxeGoldMain text-5xl font-bold">Hello there</h1>
